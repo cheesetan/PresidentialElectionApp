@@ -9,9 +9,8 @@ import Foundation
 
 extension Candidate {
     static var candidateSamples = [
-        Candidate(name: "Dharman ", age: 60, scandalous: 0.7, privateSector: false, isEligible: true),
-        Candidate(name: "Ng Sing Song", age: 70, scandalous: 0.7, privateSector: true, isEligible: true),
-        Candidate(name: "Gregory Stop", age: 55, scandalous: 0.7, privateSector: true, isEligible: false),
-        Candidate(name: "King Ah Lian", age: 87, scandalous: 0.7, privateSector: true, isEligible: true)
+        Candidate(name: "Dharman", age: 60, scandalous: 10, numberOfVotes: 59),
+        Candidate(name: "King Ah Lian", age: 87, scandalous: 70, numberOfVotes: 12),
+        Candidate(name: "Ng Sing Song", age: 70, scandalous: 20, numberOfVotes: 5)
     ]
 }

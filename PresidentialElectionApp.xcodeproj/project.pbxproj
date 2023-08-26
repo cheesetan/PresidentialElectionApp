@@ -14,6 +14,10 @@
 		F3C17D182A998B2700546DA7 /* CandidatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D172A998B2700546DA7 /* CandidatesView.swift */; };
 		F3C17D1D2A998B9900546DA7 /* CandidateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D1C2A998B9900546DA7 /* CandidateManager.swift */; };
 		F3C17D1F2A998CF300546DA7 /* Candidate+Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D1E2A998CF300546DA7 /* Candidate+Samples.swift */; };
+		F3C17D222A99947400546DA7 /* CandidatesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D212A99947400546DA7 /* CandidatesDetailView.swift */; };
+		F3C17D242A99958700546DA7 /* Binding+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D232A99958700546DA7 /* Binding+Convert.swift */; };
+		F3C17D262A999A9300546DA7 /* NewCandidateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D252A999A9300546DA7 /* NewCandidateView.swift */; };
+		F3C17D282A999D6100546DA7 /* VotingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D272A999D6100546DA7 /* VotingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		F3C17D172A998B2700546DA7 /* CandidatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesView.swift; sourceTree = "<group>"; };
 		F3C17D1C2A998B9900546DA7 /* CandidateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateManager.swift; sourceTree = "<group>"; };
 		F3C17D1E2A998CF300546DA7 /* Candidate+Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candidate+Samples.swift"; sourceTree = "<group>"; };
+		F3C17D212A99947400546DA7 /* CandidatesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesDetailView.swift; sourceTree = "<group>"; };
+		F3C17D232A99958700546DA7 /* Binding+Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Convert.swift"; sourceTree = "<group>"; };
+		F3C17D252A999A9300546DA7 /* NewCandidateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCandidateView.swift; sourceTree = "<group>"; };
+		F3C17D272A999D6100546DA7 /* VotingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +94,10 @@
 		F3C17D162A998B1100546DA7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				F3C17D202A99903400546DA7 /* Components */,
 				F3C17D172A998B2700546DA7 /* CandidatesView.swift */,
+				F3C17D212A99947400546DA7 /* CandidatesDetailView.swift */,
+				F3C17D252A999A9300546DA7 /* NewCandidateView.swift */,
+				F3C17D272A999D6100546DA7 /* VotingView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -97,15 +107,9 @@
 			children = (
 				F3C17D1C2A998B9900546DA7 /* CandidateManager.swift */,
 				F3C17D1E2A998CF300546DA7 /* Candidate+Samples.swift */,
+				F3C17D232A99958700546DA7 /* Binding+Convert.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		F3C17D202A99903400546DA7 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +185,10 @@
 				F3C17D0A2A998AC100546DA7 /* ContentView.swift in Sources */,
 				F3C17D182A998B2700546DA7 /* CandidatesView.swift in Sources */,
 				F3C17D082A998AC100546DA7 /* PresidentialElectionAppApp.swift in Sources */,
+				F3C17D282A999D6100546DA7 /* VotingView.swift in Sources */,
+				F3C17D222A99947400546DA7 /* CandidatesDetailView.swift in Sources */,
+				F3C17D242A99958700546DA7 /* Binding+Convert.swift in Sources */,
+				F3C17D262A999A9300546DA7 /* NewCandidateView.swift in Sources */,
 				F3C17D1D2A998B9900546DA7 /* CandidateManager.swift in Sources */,
 				F3C17D1F2A998CF300546DA7 /* Candidate+Samples.swift in Sources */,
 			);

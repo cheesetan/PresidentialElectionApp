@@ -9,7 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CandidatesView()
+        TabView {
+            CandidatesView()
+                .tabItem {
+                    Label("Candidates", systemImage: "person")
+                }
+            VotingView()
+                .tabItem {
+                    Label("Voting", systemImage: "archivebox")
+                }
+        }
     }
 }
 

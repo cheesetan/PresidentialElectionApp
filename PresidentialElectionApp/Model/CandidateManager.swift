@@ -6,14 +6,18 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Candidate: Identifiable, Codable {
+    
     var id = UUID()
     var name: String
     var age: Int
-    var scandalous: Double
-    var privateSector: Bool
-    var isEligible: Bool
+    var scandalous: Int
+//    var privateSector: Bool
+//    var amountOfShareHolderEquity: Int?
+    var numberOfVotes: Int = 0
+//    var isEligible: Bool
 }
 
 class CandidateManager: ObservableObject {
