@@ -85,9 +85,9 @@ struct CandidatesView: View {
     }
     
     func loadCandidates() {
-//        if candidateManager.candidates.count == 0 {
+        if candidateManager.candidates.count == 0 {
             candidateManager.candidates = Candidate.candidateSamples
-//        }
+        }
     }
 }
 
