@@ -11,6 +11,9 @@
 		F3C17D0A2A998AC100546DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D092A998AC100546DA7 /* ContentView.swift */; };
 		F3C17D0C2A998AC200546DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C17D0B2A998AC200546DA7 /* Assets.xcassets */; };
 		F3C17D0F2A998AC200546DA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C17D0E2A998AC200546DA7 /* Preview Assets.xcassets */; };
+		F3C17D182A998B2700546DA7 /* CandidatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D172A998B2700546DA7 /* CandidatesView.swift */; };
+		F3C17D1D2A998B9900546DA7 /* CandidateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D1C2A998B9900546DA7 /* CandidateManager.swift */; };
+		F3C17D1F2A998CF300546DA7 /* Candidate+Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C17D1E2A998CF300546DA7 /* Candidate+Samples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		F3C17D092A998AC100546DA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3C17D0B2A998AC200546DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C17D0E2A998AC200546DA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3C17D172A998B2700546DA7 /* CandidatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesView.swift; sourceTree = "<group>"; };
+		F3C17D1C2A998B9900546DA7 /* CandidateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateManager.swift; sourceTree = "<group>"; };
+		F3C17D1E2A998CF300546DA7 /* Candidate+Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candidate+Samples.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +57,9 @@
 		F3C17D062A998AC100546DA7 /* PresidentialElectionApp */ = {
 			isa = PBXGroup;
 			children = (
-				F3C17D072A998AC100546DA7 /* PresidentialElectionAppApp.swift */,
-				F3C17D092A998AC100546DA7 /* ContentView.swift */,
-				F3C17D0B2A998AC200546DA7 /* Assets.xcassets */,
+				F3C17D152A998B0100546DA7 /* Application */,
+				F3C17D162A998B1100546DA7 /* UI */,
+				F3C17D192A998B4700546DA7 /* Model */,
 				F3C17D0D2A998AC200546DA7 /* Preview Content */,
 			);
 			path = PresidentialElectionApp;
@@ -65,6 +71,41 @@
 				F3C17D0E2A998AC200546DA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3C17D152A998B0100546DA7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F3C17D072A998AC100546DA7 /* PresidentialElectionAppApp.swift */,
+				F3C17D092A998AC100546DA7 /* ContentView.swift */,
+				F3C17D0B2A998AC200546DA7 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F3C17D162A998B1100546DA7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F3C17D202A99903400546DA7 /* Components */,
+				F3C17D172A998B2700546DA7 /* CandidatesView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F3C17D192A998B4700546DA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3C17D1C2A998B9900546DA7 /* CandidateManager.swift */,
+				F3C17D1E2A998CF300546DA7 /* Candidate+Samples.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3C17D202A99903400546DA7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3C17D0A2A998AC100546DA7 /* ContentView.swift in Sources */,
+				F3C17D182A998B2700546DA7 /* CandidatesView.swift in Sources */,
 				F3C17D082A998AC100546DA7 /* PresidentialElectionAppApp.swift in Sources */,
+				F3C17D1D2A998B9900546DA7 /* CandidateManager.swift in Sources */,
+				F3C17D1F2A998CF300546DA7 /* Candidate+Samples.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
