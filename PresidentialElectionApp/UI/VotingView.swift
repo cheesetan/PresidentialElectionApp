@@ -20,11 +20,12 @@ struct VotingView: View {
                     x: .value("Votes", candidate.numberOfVotes),
                     y: .value("Name", candidate.name)
                 )
-                    .annotation(position: .overlay, alignment: .topLeading, spacing: 3) {
-                        Text("\(candidate.numberOfVotes)")
-                            .font(.footnote)
-                            .foregroundColor(.white)
-                    }
+                .annotation(position: .overlay, alignment: .center, spacing: 3) {
+                    Text("\(candidate.numberOfVotes)")
+                        .fontWeight(.bold)
+                        .font(.subheadline)
+                        .foregroundColor(.white)
+                }
             }
             .padding()
             .chartYAxis {
@@ -57,11 +58,11 @@ struct VotingView: View {
     func candidateView(_ candidate: Candidate) -> some View {
         VStack {
             Text(candidate.name)
-                .font(.title3)
+                .font(.headline)
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
         }
-        .padding(8)
+        .padding(10)
         .background(.blue.opacity(0.7))
         .cornerRadius(8)
     }
